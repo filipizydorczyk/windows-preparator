@@ -1,3 +1,5 @@
+This repository contains list of scripts that will setup and install all necessery scripts for me on fresh windows install.
+
 # Usage
 
 Open powershell in pace where you cloned this repository. Before you will run any script make sure that execution plociy is correct by typing
