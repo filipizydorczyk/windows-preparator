@@ -2,7 +2,7 @@ This repository contains list of scripts that will setup and install all necesse
 
 # Usage
 
-Open powershell in pace where you cloned this repository. Before you will run any script make sure that execution plociy is correct by typing
+Open powershell (as administrator) in pace where you cloned this repository. Before you will run any script make sure that execution plociy is correct by typing
 
 ```ps1
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
