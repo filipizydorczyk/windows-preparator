@@ -40,3 +40,4 @@ gimp
 spotify
 typora
 powertoys
+cmake
