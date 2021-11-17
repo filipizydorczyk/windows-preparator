@@ -36,3 +36,7 @@ function HideDesktopFiles()
     Set-ItemProperty -Path $Path -Name "HideIcons" -Value 1
     Get-Process "explorer"| Stop-Process
 }
+
+function DisableHibernation {
+    powercfg.exe /hibernate off
+}
