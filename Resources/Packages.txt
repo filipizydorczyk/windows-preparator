@@ -41,3 +41,5 @@ spotify
 typora
 powertoys
 cmake
+mingw
+make

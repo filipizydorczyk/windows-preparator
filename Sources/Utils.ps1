@@ -29,3 +29,10 @@ function InstaChocolateyPackages()
         choco install -y $line
     }
 }
+
+function HideDesktopFiles()
+{
+    $Path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
+    Set-ItemProperty -Path $Path -Name "HideIcons" -Value 1
+    Get-Process "explorer"| Stop-Process
+}
