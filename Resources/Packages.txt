@@ -43,3 +43,4 @@ powertoys
 cmake
 mingw
 make
+conemu

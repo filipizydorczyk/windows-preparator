@@ -37,6 +37,10 @@ function HideDesktopFiles()
     Get-Process "explorer"| Stop-Process
 }
 
-function DisableHibernation {
+function DisableHibernation() {
     powercfg.exe /hibernate off
+}
+
+function DisableWindowsDefender() {
+    Set-MpPreference -DisableRealtimeMonitoring $true
 }
