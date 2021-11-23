@@ -44,3 +44,4 @@ cmake
 mingw
 make
 conemu
+origin
