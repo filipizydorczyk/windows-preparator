@@ -26,3 +26,4 @@ Now you shlould be able to run scripts
     > In the console (Command Prompt), type choco install NAME1 NAME2 to install multiple packages (replace “NAME1” with the name of the first package and so on). You can add as many packages as you require to install at a time, but do note to provide correct package names, else Chocolatey may show an error.
  - [ ] Nvm instead of nodejs
  - [ ] Refactor names
+ - [ ] Add wsl instalation
