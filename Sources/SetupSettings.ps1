@@ -1,6 +1,6 @@
 Import-Module -Name .\Utils.ps1
 
-DisableHibernation
-DisableWindowsDefender
-ShowFileExtensions
-HideDesktopFiles
+Disable-Hibernation
+Disable-WindowsDefender
+Show-FileExtensions
+Hide-DesktopFiles

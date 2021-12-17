@@ -1,4 +1,4 @@
-function HideFileExtensions()
+function Hide-FileExtensions()
 {
     # http://superuser.com/questions/666891/script-to-set-hide-file-extensions
     Push-Location
@@ -7,7 +7,7 @@ function HideFileExtensions()
     Pop-Location
 }
 
-function ShowFileExtensions()
+function Show-FileExtensions()
 {
     # http://superuser.com/questions/666891/script-to-set-hide-file-extensions
     Push-Location
@@ -16,31 +16,31 @@ function ShowFileExtensions()
     Pop-Location
 }
 
-function InstallVSCodeExtensions()
+function Install-VSCodeExtensions()
 {
     foreach($line in Get-Content ..\Resources\VSCodeExtensions.txt) {
         code --install-extension $line
     }
 }
 
-function InstaChocolateyPackages()
+function Install-ChocolateyPackages()
 {
     foreach($line in Get-Content ..\Resources\Packages.txt) {
         choco install -y $line
     }
 }
 
-function HideDesktopFiles()
+function Hide-DesktopFiles()
 {
     $Path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
     Set-ItemProperty -Path $Path -Name "HideIcons" -Value 1
     Get-Process "explorer"| Stop-Process
 }
 
-function DisableHibernation() {
+function Disable-Hibernation() {
     powercfg.exe /hibernate off
 }
 
-function DisableWindowsDefender() {
+function Disable-WindowsDefender() {
     Set-MpPreference -DisableRealtimeMonitoring $true
 }
