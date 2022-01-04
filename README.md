@@ -27,3 +27,4 @@ Now you shlould be able to run scripts
 -   [ ] Nvm instead of nodejs
 -   [x] Refactor names
 -   [ ] Add wsl instalation
+-   [ ] Add windows terminal
