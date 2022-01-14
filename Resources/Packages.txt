@@ -43,7 +43,6 @@ powertoys
 cmake
 mingw
 make
-conemu
 origin
 microsoft-windows-terminal
 googlechrome
