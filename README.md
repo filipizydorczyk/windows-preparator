@@ -21,7 +21,7 @@ To open quake mode window press `Win` + `~`. If you want to set background for t
 
 ```json
 "backgroundImage": "C:/Users/thoma/OneDrive/Pictures/Me/Thomas Maurer Logos 2016/WindowsTerminal/Black Cloud Robot.png",
-"backgroundImageOpacity" : 0.2
+"backgroundImageOpacity" : 0.2,
 "useAcrylic" : true,
 "acrylicOpacity" : 0.5
 ```
