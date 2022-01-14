@@ -20,7 +20,7 @@ Now you shlould be able to run scripts
 To open quake mode window press `Win` + `~`. If you want to set background for terminal use these in json config as you need
 
 ```json
-"backgroundImage": "C:/Users/thoma/OneDrive/Pictures/Me/Thomas Maurer Logos 2016/WindowsTerminal/Black Cloud Robot.png",
+"backgroundImage": "C:/Users/user/path/to/image.png",
 "backgroundImageOpacity" : 0.2,
 "useAcrylic" : true,
 "acrylicOpacity" : 0.5
