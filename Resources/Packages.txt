@@ -46,3 +46,10 @@ make
 conemu
 origin
 microsoft-windows-terminal
+googlechrome
+firefox
+goggalaxy
+steam-client
+geforce-experience
+vscode
+ubisoft-connect
