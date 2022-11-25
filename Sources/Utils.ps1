@@ -44,3 +44,19 @@ function Disable-Hibernation() {
 function Disable-WindowsDefender() {
     Set-MpPreference -DisableRealtimeMonitoring $true
 }
+
+function Disable-AutoStartApps() {
+    reg delete HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /f
+}
+
+function Update-DirectoryStructure() {
+    $DevelopmentDirectory = "~\Development\"
+    New-Item -ItemType Directory -Force -Path $DevelopmentDirectory
+}
+
+function Update-DesktopScripts() {
+    $src = Resolve-Path ..\Library\*
+    $dest = Resolve-Path ~\Desktop
+    
+    Copy-Item -Path $src -Destination $dest -Recurse
+}

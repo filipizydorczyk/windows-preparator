@@ -3,4 +3,6 @@ Import-Module -Name .\Utils.ps1
 Disable-Hibernation
 Disable-WindowsDefender
 Show-FileExtensions
-Hide-DesktopFiles
+Disable-AutoStartApps
+Update-DirectoryStructure
+Update-DesktopScripts
