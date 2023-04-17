@@ -20,7 +20,8 @@ $packages = @(
     'VideoLAN.VLC',
     'Logitech.GHUB',
     'ProtonTechnologies.ProtonVPN',
-    'Microsoft.VisualStudioCode'
+    'Microsoft.VisualStudioCode',
+    'TeamSpeakSystems.TeamSpeakClient'
 )
 
 foreach($line in $packages) {
