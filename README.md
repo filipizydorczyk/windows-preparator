@@ -32,7 +32,16 @@ To open quake mode window press `Win` + `~`. If you want to set background for t
 "useAcrylic" : true,
 "acrylicOpacity" : 0.5
 ```
+# Additional setup
+
+I change some additionall stuff using [Chris Titus winutil](https://github.com/ChrisTitusTech/winutil). In the future I may want to just used proper commands in the script but for now I can just run this in terinal and click what I want.
+
+```sh
+irm "https://christitus.com/win" | iex
+```
+
+Additionally you need to disable HDR setting in windows. Also script for that will come some time later.
 
 # To do list
 
--   [ ] Add wsl instalation
+- [ ] Add wsl instalation
