@@ -23,20 +23,6 @@ function Install-VSCodeExtensions()
     }
 }
 
-function Install-ChocolateyPackages()
-{
-    foreach($line in Get-Content ..\Resources\Packages.txt) {
-        choco install -y $line
-    }
-}
-
-function Hide-DesktopFiles()
-{
-    $Path="HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
-    Set-ItemProperty -Path $Path -Name "HideIcons" -Value 1
-    Get-Process "explorer"| Stop-Process
-}
-
 function Disable-Hibernation() {
     powercfg.exe /hibernate off
 }
@@ -47,11 +33,6 @@ function Disable-WindowsDefender() {
 
 function Disable-AutoStartApps() {
     reg delete HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /f
-}
-
-function Update-DirectoryStructure() {
-    $DevelopmentDirectory = "~\Development\"
-    New-Item -ItemType Directory -Force -Path $DevelopmentDirectory
 }
 
 function Update-DesktopScripts() {

@@ -1,5 +1,7 @@
 Import-Module -Name .\Utils.ps1
 
+# @deprecated not used anymore. I do install apps manually instead since I don't work on windows anymore just games
+
 $packages = @(
     'Google.Chrome',
     'Nvidia.GeForceExperience',

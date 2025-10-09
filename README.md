@@ -16,11 +16,10 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 Now you shlould be able to run scripts
 
 ```ps1
-.\InstallSoftwareWinGet.ps1 # Installs all software and its extensions
-.\SetupSettings.ps1 # Sets up disired settings
+.\SetupWin11.ps1 # Sets up windws 11 after fresh install
 ```
 
-I used to use Chocolatey but I switched to winget
+For some of the changes you might want to restart Windows Explorer. Also some of the default app you might have to uninstall in windwos settings.
 
 # Windows terminal notes
 
