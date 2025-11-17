@@ -39,7 +39,7 @@ I change some additionall stuff using [Chris Titus winutil](https://github.com/C
 irm "https://christitus.com/win" | iex
 ```
 
-Additionally you need to disable HDR setting in windows. Also script for that will come some time later.
+Additionally you need to disable HDR setting in windows (seems like there is no command for that).
 
 # To do list
 
