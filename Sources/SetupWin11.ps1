@@ -2,6 +2,7 @@ Import-Module -Name .\Utils.ps1
 
 # Disable device encryption, can be also done in Settings => Privacy & security => Device encryption
 manage-bde -off C:
+DISM /Online /Disable-Feature /FeatureName:Recall
 
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 reg.exe add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 0 /f
